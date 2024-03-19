@@ -1,0 +1,51 @@
+
+.valido
+{
+    border: 2px solid green;
+}
+.invalido
+{
+    border: 2px solid red;
+}
+h2
+{
+    text-align: center;
+    color: orange
+}
+
+.obligatorio
+{
+    color: red;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#formulario>div
+{
+    display: flex;
+    flex-direction: row;
+}
+main
+{
+    border: 2px solid orange;
+    border-radius: 15px;
+
+}
+#boton
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background:orange;
+    border: 2px solid orange;
+    border-radius: 5px;
+    color: white;
+}
+label
+{
+    display: inline-block;
+    width: 150px;
+}

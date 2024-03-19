@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../css/juegoDados/juegoDados.css">
+
+</head>
+
+<body>
+    <header>
+        <h1>juegoDados</h1>
+    </header>
+
+    <div class = "jugador1">
+        <select id="player1">
+            <option value="1">1 dado</option>
+            <option value="2">2 dados</option>
+            <option value="3">3 dados</option>
+            <option value="4">4 dados</option>
+            <option value="5">5 dados</option>
+            <option value="6">6 dados</option>
+            <option value="7">7 dados</option>
+            <option value="8">8 dados</option>
+            <option value="9">9 dados</option>
+            <option value="10">10 dados</option>
+            <option value="11">11 dados</option>
+            <option value="12">12 dados</option>
+        </select>
+        <button type = "button" onclick= "tirarDados()">Tirar dados</button>
+    </div>
+
+    <div class = "jugador2">
+        <select id="player2">
+            <option value="1">1 dado</option>
+            <option value="2">2 dados</option>
+            <option value="3">3 dados</option>
+            <option value="4">4 dados</option>
+            <option value="5">5 dados</option>
+            <option value="6">6 dados</option>
+            <option value="7">7 dados</option>
+            <option value="8">8 dados</option>
+            <option value="9">9 dados</option>
+            <option value="10">10 dados</option>
+            <option value="11">11 dados</option>
+            <option value="12">12 dados</option>
+        </select>
+        <button type = "button" onclick= "tirarDados()">Tirar dados</button>
+    </div>
+
+    <div class = "marcador">
+        <output id = "resultado1" for = "player1">Resultado1</output>
+        <output id = "resultado2" for = "player2">Resultado2</output>
+    </div>
+
+<footer>
+    <p>Juanvi LLorca</p>
+</footer>
+
+<script src = "../../js/juegoDados/JuegoDados.js"></script>
+</body>
+</html>

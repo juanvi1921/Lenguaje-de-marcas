@@ -1,0 +1,93 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+body{
+    background:linear-gradient(45deg, blueviolet, lightgreen);
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    border-style: solid;
+    border-color: black;
+    padding: 50px;
+    width: 1300px;
+    height:400px;
+    margin-left: 320px;
+}
+
+header{
+    text-align: center;
+    padding-bottom: 15px;
+    color:#fff;
+    text-shadow: 0 10px 15px rgba(0,0,0,.2);
+    font-size: 35px;
+    padding: 15px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 2%;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+p{
+    color:white;
+    font-size: 15px;
+    line-height: 1.8;
+}
+
+button {
+    border-style: solid;
+    margin: 2px; 
+    padding: 1px; 
+}
+
+button:hover {
+    border-style: solid;
+    background-color: yellow;
+    color: black;
+    padding: 2px;
+}
+
+input {
+    border-style: solid;
+    margin: 2px; 
+    padding: 1px; 
+}
+
+output {
+    background-color: white;
+    border-style: solid;
+    margin: 2px; 
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#cuadradoNuevo {
+    background-color: white;
+    border-style: solid;
+    margin: 2px; 
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 70px;
+}
+
+
